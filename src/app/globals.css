@@ -2,26 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Barlow";
+  font-weight: 600;
+  src: url(./../../public/fonts/Barlow/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: "Fraunces";
+  font-weight: 700;
+  src: url(./../../public/fonts/Fraunces/static/Fraunces_72pt-Bold.ttf);
+}
+@font-face {
+  font-family: "Fraunces";
+  font-weight: 900;
+  src: url(./../../public/fonts/Fraunces/static/Fraunces_9pt_Soft-Black.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.background {
+  background: url(./../../public/images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.gBack {
+  background: url(./../../public//images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.oBack {
+  background: url(./../../public//images/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
