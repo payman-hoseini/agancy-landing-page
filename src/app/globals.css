@@ -26,12 +26,14 @@
 
 .gBack {
   background: url(./../../public//images/desktop/image-graphic-design.jpg);
-  background-position: center;
+  background-position:top;
   background-repeat: no-repeat;
+  height: 600px;
 }
 .oBack {
   background: url(./../../public//images/desktop/image-photography.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
+  height: 600px;
 }
 
