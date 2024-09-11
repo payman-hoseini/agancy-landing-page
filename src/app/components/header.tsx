@@ -11,7 +11,7 @@ export default function Header(){
                 <button className="font-Barlow text-white">About</button>
                 <button className="font-Barlow text-white">Services</button>
                 <button className="font-Barlow text-white">Projects</button>
-                <button className="font-Fraunces bg-white px-5 py-3 rounded-full">CONTACT</button>
+                <button className="font-Fraunces bg-white px-5 py-3 rounded-full shadow hover:bg-opacity-35 hover:text-white">CONTACT</button>
               </div>
             </div>
             <div className="grid place-content-center place-items-center w-full mt-24">
