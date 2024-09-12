@@ -1,8 +1,5 @@
-import Image from "next/image";
+
 import Header from "./components/header";
-
-
-
 import Article from "./components/article";
 import Client from "./components/client";
 import Gallery from "./components/gallery";
