@@ -11,7 +11,7 @@ export default function Client(){
             <div className="my-16 md:mt-16 md:mb-0 flex-col md:flex-row flex">
               <div className="grid place-items-center">
                 <Image src={emilyPic} alt="Emily" className="rounded-full" height={80}/>
-                <p className="font-Barlow text-Very-dark-desaturated-blue text-center w-[80%] md:my-14 my-8"> We put our trust in Sunnyside and they delivered, making sure our needs 
+                <p className="font-Barlow text-Very-dark-desaturated-blue text-center w-[80%] w- md:my-14 my-8"> We put our trust in Sunnyside and they delivered, making sure our needs 
                   were met and deadlines were always hit.</p>
                 <p className="font-Fraunces font-black text-Very-dark-desaturated-blue">Emily R.</p>
                 <p className="font-Barlow text-Grayish-blue text-sm mt-2">Marketing Director</p>

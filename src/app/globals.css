@@ -47,8 +47,11 @@
     background-repeat: no-repeat;
     background-size : cover;
   }
+  
+}
+@media (min-width : 400px) {
   .gBack {
-    background: url(./../../public//images/desktop/image-graphic-design.jpg);
+    background: url(./../../public/images/desktop/image-graphic-design.jpg);
     background-position:top;
     background-repeat: no-repeat;
     height: 600px;
