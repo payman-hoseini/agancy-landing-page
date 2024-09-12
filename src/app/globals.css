@@ -19,21 +19,44 @@
 }
 
 .background {
-  background: url(./../../public/images/desktop/image-header.jpg);
-  background-position: center;
+  background: url(./../../public/images/mobile/image-header.jpg);
+  background-position : center;
   background-repeat: no-repeat;
+  background-size :cover;
 }
 
 .gBack {
-  background: url(./../../public//images/desktop/image-graphic-design.jpg);
+  background: url(./../../public//images/mobile/image-graphic-design.jpg);
   background-position:top;
   background-repeat: no-repeat;
+  background-size: contain;
   height: 600px;
 }
 .oBack {
-  background: url(./../../public//images/desktop/image-photography.jpg);
+  background: url(./../../public//images/mobile/image-photography.jpg);
   background-position: top;
   background-repeat: no-repeat;
+  background-size: contain;
   height: 600px;
 }
 
+@media (min-width: 768px) {
+  .background{
+    background: url(./../../public/images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;
+  }
+  .gBack {
+    background: url(./../../public//images/desktop/image-graphic-design.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  .oBack {
+    background: url(./../../public/images/desktop/image-photography.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+}
